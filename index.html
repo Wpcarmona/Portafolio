@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="robots" content="index,follow">
+
+    <title>Pedro Carmona | Desarrollador Front-End</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/icon-port.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/icon-port.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <!-- <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div> -->
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/icon-person1.jpeg" alt="Ilustración  yo">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Pedro Carmona</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollador Front-End</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Desarrollador enfocando en Front-end con HTML, CSS, JavaScript y TypeScript, con experiencia usando Angular y React, también usando herramientas de desarrollo móvil multiplataforma como Ionic, React Native y plataformas nativas usando Android con Java y Kotlin.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1OtVRSqs8_1TYlD_SOSYwRk5GgbFj4IMv/view?usp=sharing" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/willington-pedro-carmona-florez-046872221" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+               
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Pedro Carmona</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Ingeniero electrónico enfocado en el desarrollo Front-End de aplicaciones web, así como también de aplicaciones móviles híbridas y de forma nativa para Android.<br><br>Soy detallista en cada proyecto en el que trabajo, bueno para trabajar en equipo. Me gusta colaborar en todo lo que pueda y llevar mi trabajo un paso más allá de lo requerido, siempre dispuesto a completar de la mejor manera cada una de las tareas asignadas.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/icon-person2.jpeg" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/ic-ts.png" alt="TypeScript" style="width: 70px; margin-bottom: 10px;">
+                    <p>TypeScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-sass.png" alt="Sass" style="width: 70px; margin-bottom: 10px;">
+                    <p>Sass</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/react-icon.png" alt="React" style="width: 70px; margin-bottom: 10px;">
+                    <p>React</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-angular.png" alt="Angular" style="width: 70px; margin-bottom: 10px;">
+                    <p>Angular</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-ionic.png" alt="Ionic" style="width: 70px; margin-bottom: 10px;">
+                    <p>ionic</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/react-icon.png" alt="React Native" style="width: 70px; margin-bottom: 10px;">
+                    <p>React Native</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-outsystem.png" alt="Outsystem" style="width: 70px; margin-bottom: 10px;">
+                    <p>Outsystem</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-github-hab.png" alt="GitHub">
+                    <p>Github</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-android.png" alt="Android">
+                    <p>Android</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/icon-upc.png" alt="Logo - Universidad Nacional de Colombia">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Ingeniería electrónica</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2015 - 2021</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/sena-logo.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Desarrollo Front-End Web</p>
+                        <p>2019 - 2020</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/icon-udemy.png" alt="Logo - SENA" style="width: 300px;">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Desarrollo de aplicaciones moviles hibridas</p>
+                        <p>2021 - 2023</p>
+                    </div>
+                </div>
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/icon-udemy.png" alt="Logo - SENA" style="width: 300px;">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Desarrollo de aplicaciones Web</p>
+                        <p>2021 - 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Trabajos realizados</h1>
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos" style="background-color: white;text-align: center;">
+                        <img src="./assets/images/icon-idengue.png" alt="Proyecto: iDengue" style="width: 150px; height: 165px;">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">iDengue</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">Aplicación móvil híbrida para Android y iOS donde se registran los focos de infección del mosquito Aedes Aegypti, así como también se muestra un mapa de calor de las zonas afectadas de la ciudad de Valledupar.</p>
+                        <p style="text-align: center;">2020 - 2020</p>
+                    </div>
+
+               
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon-GESAM.png" alt="Proyecto: GESAM" style="height: 165px;">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">GESAM</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Es una aplicación móvil diseñada para registrar los contratos medioambientales de todo proyecto que se haga en la región del Cesar. Esta aplicación fue realizada para la entidad SENA.</p>
+                        <p style="text-align: center;">2020 - 2021</p>
+                    </div>
+
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" >
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon-bolsiyo.png" alt="Proyecto: Bolsiyo" style="background-color: white; height: 165px;">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Bolsiyo</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Es una aplicación móvil para Android que busca ayudar a sus usuarios a registrar cada una de las ventas que realizan de manera fácil y segura.</p>
+                        <p style="text-align: center;">2021 - 2022</p>
+                    </div>
+
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom"  >
+                    <div class="container_imgCard--proyectos" style="text-align: center;background-color: white;">
+                        <img src="./assets/images/icon-directorio.png" alt="Proyecto: Directorio" style="width: 150px; height: 165px;">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Directorio</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Es una aplicación móvil para Android y iOS que busca concentrar todos los negocios/emprendimientos de la ciudad de Valledupar en un solo lugar, para que de esta manera sea más fácil a sus usuarios encontrar lo que necesitan.</p>
+                        <p style="text-align: center;">2022 - 2023</p>
+                    </div>
+
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" >
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon-petpaws.png" alt="Proyecto: Pets & Paws" style="background-color: white;">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Pets&Paws shop</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Aplicacion web para ordenar pedidos de comida en la ciudad de Valledupar</p>
+                        <p style="text-align: center;">2024 - 2024</p>
+                    </div>
+
+                </div>
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" >
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon-nexos.png" alt="Proyecto: Nexos Software" style="background-color: white; height: 165px;">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Nexos Software</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Actualmente me encuentro trabajando como analista de desarrollo híbrido para la empresa Nexos Software.</p>
+                        <p style="text-align: center;">2022 - presente</p>
+                    </div>
+
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre" required>
+                        <input id="email" type="email" name="email" placeholder="Correo electrónico" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/willington-pedro-carmona-florez-046872221" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>
